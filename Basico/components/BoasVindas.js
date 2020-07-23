@@ -44,7 +44,7 @@ function BoasVindas(props) {
         style={styles.campo}
         placeholder="Digite seu sobrenome"
         onChangeText={sobrenome => setSobrenome(sobrenome)}
-        value={nome}
+        value={sobrenome}
       />
 
       <View style={styles.botaoContainer}>
